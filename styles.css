@@ -1,0 +1,29 @@
+.mainPage {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container-mainPage {
+  width: 85%;
+}
+
+.mainPage header {
+  width: 100%;
+  height: 20%;
+}
+
+.mainPage-row-1 {
+  width: 100%;
+  height: 49%;
+}
+
+.mainPage-row-2 {
+  width: 100%;
+  height: 49%;
+}
+
+.mainPage-row-3 {
+  width: 100%;
+  height: 49%;
+}
