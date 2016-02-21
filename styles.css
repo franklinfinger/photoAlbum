@@ -4,26 +4,132 @@
   padding: 0;
 }
 
-.container-mainPage {
-  width: 85%;
+.header-mainPage {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
 }
 
-.mainPage header {
-  width: 100%;
-  height: 20%;
+.header-mainPage span {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: Oldtown, fantasy;
+}
+
+.mainPage-wrapper {
+  width: 85%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .mainPage-row-1 {
   width: 100%;
-  height: 49%;
+  height: 300px;
+  background-color: lightpink;
+}
+
+.mainPage-row-1 img {
+  width: 33%;
+  height: 300px;
 }
 
 .mainPage-row-2 {
   width: 100%;
-  height: 49%;
+  height: 300px;
+  background-color: lightyellow
 }
 
-.mainPage-row-3 {
+.mainPage-row-2 img {
+  width: 33%;
+  height: 300px;
+}
+
+.albums {
   width: 100%;
-  height: 49%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header-albums {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+  display: inline-block;
+}
+
+.header-albums ul {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-albums li {
+  font-size: 40px;
+  font-weight: 200;
+  font-family: Oldtown, fantasy;
+  display: inline-block;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.albums-wrapper {
+  width: 85%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.albums-row-1 {
+  width: 100%;
+  height: 300px;
+  background-color: lightpink;
+}
+
+.albums-row-1 img {
+  width: 33%;
+  height: 300px;
+}
+
+.albums-row-2 {
+  width: 100%;
+  height: 300px;
+  background-color: lightyellow;
+}
+
+.albums-row-2 img {
+  width: 33%;
+  height: 300px;
+}
+
+.photo-wrapper {
+  width: 85%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.photo-header {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.photo-header a{
+  text-decoration: none;
+}
+
+.return-album {
+  font-size: 50px;
+  font-family: Oldtown, fantasy;
+
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.inactive {
+    display: none;
 }
