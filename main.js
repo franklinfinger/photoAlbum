@@ -35,18 +35,18 @@ $(".multiAlbums").on("click","li", function(event){
     $(".albums-row-1").html(photoDisplay);
 })
 
-$("multiAlbums").on("click", "img", function(event){
+$(".albums-row-1").on("click", "img", function(event){
   event.preventDefault();
-  var bigImg = $(this).attr("rel");
-  var items = getAlbumPhotos(bigImg);
-  var singlePhoto = "";
-  items.photo.forEach(function(el) {
-    singlePhoto += '<img src="'+ el + '" alt="" />'
+  var bigImg = $(this).attr("src");
 
-  })
+  var singlePhoto = '<img src="'+ bigImg + '" alt="" />'
 
   $(".photo-container").html(singlePhoto);
+  $('.bigPhoto').show()
+  // $('.albums-row-1').hide();
+  $('.albums').hide();
 })
+
 
 
 
