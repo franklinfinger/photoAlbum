@@ -44,7 +44,8 @@ $("multiAlbums").on("click", "img", function(event){
     singlePhoto += '<img src="'+ el + '" alt="" />'
 
   })
-  $("photo-container").html(singlePhoto);
+
+  $(".photo-container").html(singlePhoto);
 })
 
 
